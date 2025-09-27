@@ -282,7 +282,7 @@ This project is licensed under the MIT License - see the [LICENSE](LICENSE) file
 
 **Keshav**
 - Email: kesh.71772218121@gct.ac.in
-- GitHub: [@YourUsername](https://github.com/Kesh3805)
+- GitHub: [@Kesh3805](https://github.com/Kesh3805)
 
 ## 🙏 Acknowledgments
 
