@@ -23,6 +23,7 @@ pids
 
 # Coverage directory used by tools like istanbul
 coverage/
+*.nyc_output
 
 # OS generated files
 .DS_Store
@@ -47,3 +48,16 @@ logs
 # Temp files
 *.tmp
 *.temp
+
+# Database
+*.sqlite
+*.db
+
+# Production
+/build
+/dist
+
+# Misc
+.env.example
+.eslintcache
+.cache/
