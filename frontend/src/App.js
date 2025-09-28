@@ -136,37 +136,37 @@ function TodoApp() {
               className={`filter-tab ${filter === 'all' ? 'active' : ''}`}
               onClick={() => setFilter('all')}
             >
-              All ({todos.length})
+              <span>All ({todos.length})</span>
             </button>
             <button 
               className={`filter-tab ${filter === 'pending' ? 'active' : ''}`}
               onClick={() => setFilter('pending')}
             >
-              Pending ({todos.filter(t => !t.completed).length})
+              <span>Pending ({todos.filter(t => !t.completed).length})</span>
             </button>
             <button 
               className={`filter-tab ${filter === 'completed' ? 'active' : ''}`}
               onClick={() => setFilter('completed')}
             >
-              Completed ({todos.filter(t => t.completed).length})
+              <span>Completed ({todos.filter(t => t.completed).length})</span>
             </button>
             <button 
               className={`filter-tab ${filter === 'high' ? 'active' : ''}`}
               onClick={() => setFilter('high')}
             >
-              High Priority ({todos.filter(t => t.priority === 'high').length})
+              <span>High Priority ({todos.filter(t => t.priority === 'high').length})</span>
             </button>
             <button 
               className={`filter-tab ${filter === 'medium' ? 'active' : ''}`}
               onClick={() => setFilter('medium')}
             >
-              Medium Priority ({todos.filter(t => t.priority === 'medium').length})
+              <span>Medium Priority ({todos.filter(t => t.priority === 'medium').length})</span>
             </button>
             <button 
               className={`filter-tab ${filter === 'low' ? 'active' : ''}`}
               onClick={() => setFilter('low')}
             >
-              Low Priority ({todos.filter(t => t.priority === 'low').length})
+              <span>Low Priority ({todos.filter(t => t.priority === 'low').length})</span>
             </button>
           </div>
 
